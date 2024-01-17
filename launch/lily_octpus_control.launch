@@ -1,0 +1,42 @@
+<launch>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find lily_octpus_control)/config/controller.yaml" command="load"/>
+
+  <!-- load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+	output="screen" ns="/" args="joint_state_controller
+                                                 BLF_base_clause_controller
+                                                 BLH_base_clause_controller
+                                                 BRF_base_clause_controller
+                                                 BRH_base_clause_controller
+                                                 BLF_thigh_controller
+                                                 BLH_thigh_controller
+                                                 BRF_thigh_controller
+                                                 BRH_thigh_controller
+                                                 BLF_tibia_controller
+                                                 BLH_tibia_controller
+                                                 BRF_tibia_controller
+                                                 BRH_tibia_controller
+                                                 TLF_base_clause_controller
+                                                 TLH_base_clause_controller
+                                                 TRF_base_clause_controller
+                                                 TRH_base_clause_controller
+                                                 TLF_thigh_controller
+                                                 TLH_thigh_controller
+                                                 TRF_thigh_controller
+                                                 TRH_thigh_controller
+                                                 TLF_tibia_controller
+                                                 TLH_tibia_controller
+                                                 TRF_tibia_controller
+                                                 TRH_tibia_controller
+                                                 "/>
+
+  <!-- convert joint states to TF transforms for rviz, etc -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher"
+        type="robot_state_publisher"
+        respawn="false" output="screen">
+        <remap from="/joint_states" to="/lily_octpus/joint_states" />
+  </node>
+
+</launch>
