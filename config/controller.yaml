@@ -5,119 +5,119 @@ joint_state_controller:
 BLF_base_clause_controller:
   type: effort_controllers/JointPositionController
   joint: BLF_base_clause_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 BLF_thigh_controller:
   type: effort_controllers/JointPositionController
   joint: BLF_thigh_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 BLF_tibia_controller:
   type: effort_controllers/JointPositionController
   joint: BLF_tibia_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 BLH_base_clause_controller:
   type: effort_controllers/JointPositionController
   joint: BLH_base_clause_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 BLH_thigh_controller:
   type: effort_controllers/JointPositionController
   joint: BLH_thigh_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 BLH_tibia_controller:
   type: effort_controllers/JointPositionController
   joint: BLH_tibia_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 BRF_base_clause_controller:
   type: effort_controllers/JointPositionController
   joint: BRF_base_clause_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 BRF_thigh_controller:
   type: effort_controllers/JointPositionController
   joint: BRF_thigh_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 BRF_tibia_controller:
   type: effort_controllers/JointPositionController
   joint: BRF_tibia_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 BRH_base_clause_controller:
   type: effort_controllers/JointPositionController
   joint: BRH_base_clause_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 BRH_thigh_controller:
   type: effort_controllers/JointPositionController
   joint: BRH_thigh_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 BRH_tibia_controller:
   type: effort_controllers/JointPositionController
   joint: BRH_tibia_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 TLF_base_clause_controller:
   type: effort_controllers/JointPositionController
   joint: TLF_base_clause_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 TLF_thigh_controller:
   type: effort_controllers/JointPositionController
   joint: TLF_thigh_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 TLF_tibia_controller:
   type: effort_controllers/JointPositionController
   joint: TLF_tibia_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 TLH_base_clause_controller:
   type: effort_controllers/JointPositionController
   joint: TLH_base_clause_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 TLH_thigh_controller:
   type: effort_controllers/JointPositionController
   joint: TLH_thigh_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.015}
 
 TLH_tibia_controller:
   type: effort_controllers/JointPositionController
   joint: TLH_tibia_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.1}
 
 TRF_base_clause_controller:
   type: effort_controllers/JointPositionController
   joint: TRF_base_clause_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.1}
 
 TRF_thigh_controller:
   type: effort_controllers/JointPositionController
   joint: TRF_thigh_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.1}
 
 TRF_tibia_controller:
   type: effort_controllers/JointPositionController
   joint: TRF_tibia_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.1}
 
 TRH_base_clause_controller:
   type: effort_controllers/JointPositionController
   joint: TRH_base_clause_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.1}
 
 TRH_thigh_controller:
   type: effort_controllers/JointPositionController
   joint: TRH_thigh_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.1}
 
 TRH_tibia_controller:
   type: effort_controllers/JointPositionController
   joint: TRH_tibia_joint
-  pid: {p: 10.0, i: 0.0, d: 0.01}
+  pid: {p: 300.0, i: 0.0, d: 0.1}
